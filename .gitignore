@@ -1,0 +1,20 @@
+# Datasets grandes (não vão para o GitHub) — o app usa só os arquivos prontos
+B2W-Reviews01.csv
+customer_support_tickets_200k.csv
+
+# Notebook antigo (versão em inglês, substituída pela versão em português)
+nlp.ipynb
+
+# Imagens já embutidas na apresentação (.pptx)
+img_*.png
+
+# Ambiente virtual, caches e arquivos temporários
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.log
+_check_temp.pptx
+
+# NÃO ignoramos reviews_app.csv nem embeddings.npy:
+# o app online precisa desses dois arquivos.
