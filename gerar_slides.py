@@ -325,7 +325,30 @@ r2.font.size = Pt(18); r2.font.color.rgb = RGBColor(0xEA, 0xE7, 0xFF); r2.font.n
 r2.hyperlink.address = LINK_APP
 
 # ============================================================
-# SLIDE 12 — CONCLUSÃO
+# SLIDE 12 — POTENCIAL DE APLICAÇÃO
+# ============================================================
+slide_conteudo(
+    "Potencial: a memória da empresa",
+    [
+        ("E se a empresa pudesse \"lembrar\" de tudo o que já produziu?", 22, True),
+        "Alimente o sistema com qualquer texto: documentos, projetos, pesquisas científicas, atas e conversas com investidores.",
+        "Tudo vira vetor e fica recuperável por significado — uma verdadeira memória semântica da organização.",
+        ("Exemplos de uso:", 20, True),
+        "Resgatar um achado de uma pesquisa científica interna para um projeto em andamento.",
+        "Relembrar o que foi tratado em conversas com investidores.",
+        "Encontrar projetos antigos parecidos com o desafio de agora.",
+    ],
+    notas=(
+        "Apresente como a VISÃO de futuro do trabalho. A mesma técnica vira um 'banco de "
+        "memórias' da empresa: em vez de avaliações, indexe documentos, pesquisas e atas. "
+        "Aí qualquer pessoa 'lembra' de algo buscando por significado — ex.: puxar um dado "
+        "de uma pesquisa antiga para um projeto atual. É a base do que o mercado chama de "
+        "RAG (busca semântica + IA). (~1 min)"
+    ),
+)
+
+# ============================================================
+# SLIDE 13 — CONCLUSÃO
 # ============================================================
 slide_conteudo(
     "Conclusão",
