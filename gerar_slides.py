@@ -295,7 +295,7 @@ slide_imagem(
 # ============================================================
 # SLIDE 11 — O SISTEMA ONLINE
 # ============================================================
-slide_conteudo(
+s11 = slide_conteudo(
     "O sistema online (Streamlit)",
     [
         ("Tudo isso virou um app web simples de usar.", 22, True),
@@ -305,9 +305,24 @@ slide_conteudo(
     ],
     notas=(
         "Aqui você abre o app ao vivo (ou mostra um print). Faça UMA busca na frente da "
-        "turma — é o momento de maior impacto. (~1,5 min)"
+        "turma — é o momento de maior impacto. O link está no slide. (~1,5 min)"
     ),
 )
+
+# Caixa de destaque com o link clicável do app
+LINK_APP = "https://trabalho-nlp-lw2nakkbxysdjuxkaipr3x.streamlit.app/"
+cx = retangulo(s11, Inches(0.9), Inches(5.55), Inches(11.5), Inches(0.95), ROXO)
+cx.text_frame.vertical_anchor = MSO_ANCHOR.MIDDLE
+cx.text_frame.word_wrap = True
+p_link = cx.text_frame.paragraphs[0]
+p_link.alignment = PP_ALIGN.CENTER
+r1 = p_link.add_run()
+r1.text = "🔗  Acesse o app:  "
+r1.font.size = Pt(18); r1.font.bold = True; r1.font.color.rgb = BRANCO; r1.font.name = "Segoe UI"
+r2 = p_link.add_run()
+r2.text = LINK_APP
+r2.font.size = Pt(18); r2.font.color.rgb = RGBColor(0xEA, 0xE7, 0xFF); r2.font.name = "Segoe UI"
+r2.hyperlink.address = LINK_APP
 
 # ============================================================
 # SLIDE 12 — CONCLUSÃO

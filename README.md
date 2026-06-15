@@ -1,5 +1,9 @@
 # 🔎 Busca Semântica de Avaliações (NLP)
 
+### 👉 Acesse o app online: **https://trabalho-nlp-lw2nakkbxysdjuxkaipr3x.streamlit.app/**
+
+---
+
 Sistema de **recuperação semântica de informação**: o usuário digita uma busca em
 linguagem natural e o sistema retorna as avaliações de produtos mais parecidas em
 **significado** (não em palavras exatas), usando **embeddings vetoriais** e
